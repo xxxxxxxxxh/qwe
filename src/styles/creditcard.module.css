@@ -1,0 +1,17 @@
+.card {
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    color: #fff;
+    overflow: hidden;
+}
+
+.card_number {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px 25px 5px;
+    font-size: 21px;
+}

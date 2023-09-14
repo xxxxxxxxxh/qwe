@@ -1,0 +1,12 @@
+{
+  "checkout": {
+    "success_title": "Purchase made successfully!",
+    "success_desc": "Thank you for purchasing our services, enjoy your subscription on Lovver!",
+    "confirm_order": "Confirm Order"
+  },
+  "product": {
+    "remove": "Remove",
+    "buy_now": "Buy now",
+    "features": "Features"
+  }
+}

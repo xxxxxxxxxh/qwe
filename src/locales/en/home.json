@@ -1,0 +1,17 @@
+{
+  "hero": {
+    "title": "Create files for have fun",
+    "subtitle": "Have fun creating safe executable programs for your friends!"
+  },
+  "discord_server": {
+    "title": "Our Discord",
+    "desc": "We use our Discord server as the primary form of communication with our members.",
+    "join": "Join us"
+  },
+  "banner": {
+    "discount": "10% OFF",
+    "text": "For the day of our inauguration we will give a 10% discount!",
+    "btn": "Buy now"
+  },
+  "close": "Close"
+}

@@ -1,0 +1,30 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "team": "Equipo",
+    "pricing": "Precios"
+  },
+  "mobile": {
+    "dashboard": "Panel",
+    "settings": "Ajustes",
+    "profile": "Perfil",
+    "subscription": "Suscripción"
+  },
+  "not_found": {
+    "title": "Página no encontrada!",
+    "desc": "Lo siento, pero esta página no existe!"
+  },
+  "prices": {
+    "title": "Precios Simples & Transparentes",
+    "description": "Si estás pensando en contratar los servicios de Lovver, puedes consultar nuestros precios a continuación."
+  },
+  "team": {
+    "our_team": "Nuestro equipo",
+    "text": "Nuestro equipo a cargo del desarrollo y mantenimiento de los servicios de <1>Lovver</1>"
+  },
+  "no_items": "No tienes articulos para comprar!",
+  "support": "Soporte",
+  "theme": "Tema",
+  "lang": "Idioma",
+  "logout": "Salir"
+}

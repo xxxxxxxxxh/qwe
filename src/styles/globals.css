@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background-color: #47a3f3;
+  color: #fefefe;
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+#nprogress .bar {
+  background: #ffffff !important;
+}
+#nprogress .peg {
+  box-shadow: 0 0 10px #ffffff, 0 0 5px #ffffff !important;
+}
+
+/* Remove Safari input shadow on mobile */
+input[type='text'],
+input[type='email'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 12px;
+  line-height: 1;
+  color: #fafafa;
+  font-weight: 600;
+}
+
+.overlay_section_discord {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  user-select: none;
+  height: 100%;
+  width: 100%;
+  filter: blur(75px);
+  transform: translateZ(0);
+  opacity: 0.1;
+  background-blend-mode: screen;
+  background: linear-gradient(
+    90deg,
+    rgb(175, 159, 255) 40%,
+    rgba(119, 222, 255, 0.5) 50%,
+    rgba(221, 14, 255, 0.25) 75%
+  );
+}
+
+.shadow-gradient {
+  position: relative;
+}
+.shadow-gradient:after,
+.shadow-gradient:before {
+  border-radius: 64px;
+  content: '';
+  position: absolute;
+  z-index: 0;
+}
+
+.shadow-gradient:after {
+  background-image: radial-gradient(50% 50% at 50% 50%, rgba(1, 107, 231, 0.2) 0, rgba(1, 106, 229, 0.4) 100%);
+  filter: blur(35px);
+  height: 120px;
+  left: -3px;
+  top: -18px;
+  width: 120px;
+}
+.shadow-gradient:before {
+  background-image: radial-gradient(50% 50% at 50% 50%, rgba(255, 0, 128, 0.3) 0, rgba(255, 0, 128, 0.2) 100%);
+  filter: blur(20px);
+  height: 143px;
+  left: -24px;
+  top: -50px;
+  transform: rotate(30.58deg);
+  width: 70px;
+}

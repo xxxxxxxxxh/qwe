@@ -1,0 +1,17 @@
+{
+  "hero": {
+    "title": "Crea archivos para divertirte",
+    "subtitle": "¡Diviértete creando programas ejecutables seguros para tus amigos!"
+  },
+  "discord_server": {
+    "title": "Nuestro Discord",
+    "desc": "Usamos nuestro servidor Discord como la principal forma de comunicación con nuestros miembros.",
+    "join": "Unirse"
+  },
+  "banner": {
+    "discount": "10% OFF",
+    "text": "Por el día de nuestra inauguración daremos un 10% de descuentos!",
+    "btn": "Ir ahora"
+  },
+  "close": "Cerrar"
+}

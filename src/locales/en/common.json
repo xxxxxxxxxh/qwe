@@ -1,0 +1,30 @@
+{
+  "navbar": {
+    "home": "Home",
+    "team": "Team",
+    "pricing": "Pricing"
+  },
+  "mobile": {
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "profile": "Profile",
+    "subscription": "Subscription"
+  },
+  "not_found": {
+    "title": "Page not found!",
+    "desc": "Sorry, but this page does not exist!"
+  },
+  "prices": {
+    "title": "Simple & Transparent Pricing",
+    "description": "If you are thinking of buying Lovver's services, you can check our prices below."
+  },
+  "team": {
+    "our_team": "Our team",
+    "text": "Our team in charge of the development and maintenance of <1>Lovver</1> services"
+  },
+  "no_items": "You have no items to buy!",
+  "support": "Support",
+  "theme": "Theme",
+  "lang": "Language",
+  "logout": "Logout"
+}
